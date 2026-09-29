@@ -240,6 +240,15 @@ def h_mitigation(text: str) -> str:
 # Endpoints
 # ═══════════════════════════════════════════════════════════════════════════════
 
+@app.get("/")
+async def root():
+    return {
+        "status": "ok",
+        "service": "eRTMAC-NWIS AI Service",
+        "message": "AI service is running"
+    }
+
+
 @app.get("/health")
 async def health():
     return {

@@ -138,7 +138,7 @@ async function seed(shouldDisconnect = false) {
       { name: 'Admin Kumar',     email: 'admin@ertmac.demo',      password: hashedPass, role: 'ADMIN',    department: 'IT & Digital' },
       { name: 'Admin Sharma',    email: 'admin2@ertmac.demo',     password: hashedPass, role: 'ADMIN',    department: 'Data Management' },
       { name: 'Admin Patel',     email: 'admin3@ertmac.demo',     password: hashedPass, role: 'ADMIN',    department: 'Knowledge Management' },
-      { name: 'Rajesh ', email: 'engineer@ertmac.demo',   password: hashedPass, role: 'ENGINEER', department: 'Drilling Engineering' },
+      { name: 'balwinder kumar ', email: 'engineer@ertmac.demo',   password: hashedPass, role: 'ENGINEER', department: 'Drilling Engineering' },
       { name: 'Priya Sinha',     email: 'engineer2@ertmac.demo',  password: hashedPass, role: 'ENGINEER', department: 'Drilling Engineering' },
       { name: 'Amit Verma',      email: 'engineer3@ertmac.demo',  password: hashedPass, role: 'ENGINEER', department: 'Mud Engineering' },
       { name: 'Suresh Nair',     email: 'engineer4@ertmac.demo',  password: hashedPass, role: 'ENGINEER', department: 'Well Engineering' },
